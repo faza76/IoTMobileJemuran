@@ -8,6 +8,7 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] /home/faza/.gradle/caches/
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faza/.gradle/caches/transforms-2/files-2.1/d0a50b36b1ef0da63567d56be9c62af7/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:cardview-v7:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/a437283ae6cec6beef26ffbe945311b5/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/010e827160909cf252f91ec0eca03510/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/7fbaef08f06a413effc1bcd4f0b854e8/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/c9020c8f4a0ccaa695bbcc427af55a13/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/f5591131642365339af0d0f0d5a14400/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/263cd5ec1c0e1b2a74ae94615d7137cd/AndroidManifest.xml:17:1-22:12
@@ -24,6 +25,8 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/faza/.gradle/
 MERGED from [com.android.support:support-compat:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/d6d202380ec8b6b1b68210a98c1bd994/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/084309f1c9c170a778eb86883deaf9e1/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/683d0eb32df681f9ba205e7f647591bc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/f2cbd712e86ba610cf299e05a0957891/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db:1.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/cb8fb5cc6cd197c6458e1414b7789046/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/faza/.gradle/caches/transforms-2/files-2.1/a13927faae1edc533f6c04173d70a87a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/2b365b0416d3d81892ae83c42758a16c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/5a051df8787d455c7af48fa2ab0901ea/AndroidManifest.xml:17:1-22:12
@@ -98,6 +101,8 @@ MERGED from [com.android.support:cardview-v7:28.0.0] /home/faza/.gradle/caches/t
 MERGED from [com.android.support:cardview-v7:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/a437283ae6cec6beef26ffbe945311b5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/010e827160909cf252f91ec0eca03510/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/010e827160909cf252f91ec0eca03510/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/7fbaef08f06a413effc1bcd4f0b854e8/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/7fbaef08f06a413effc1bcd4f0b854e8/AndroidManifest.xml:20:5-22:41
 MERGED from [com.android.support:support-fragment:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/c9020c8f4a0ccaa695bbcc427af55a13/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/c9020c8f4a0ccaa695bbcc427af55a13/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/f5591131642365339af0d0f0d5a14400/AndroidManifest.xml:20:5-44
@@ -130,6 +135,10 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faza/.gradle/
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/084309f1c9c170a778eb86883deaf9e1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/683d0eb32df681f9ba205e7f647591bc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/683d0eb32df681f9ba205e7f647591bc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/f2cbd712e86ba610cf299e05a0957891/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/f2cbd712e86ba610cf299e05a0957891/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/cb8fb5cc6cd197c6458e1414b7789046/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/cb8fb5cc6cd197c6458e1414b7789046/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/faza/.gradle/caches/transforms-2/files-2.1/a13927faae1edc533f6c04173d70a87a/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/faza/.gradle/caches/transforms-2/files-2.1/a13927faae1edc533f6c04173d70a87a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/faza/.gradle/caches/transforms-2/files-2.1/2b365b0416d3d81892ae83c42758a16c/AndroidManifest.xml:20:5-44
