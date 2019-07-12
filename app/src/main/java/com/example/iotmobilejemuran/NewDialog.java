@@ -9,6 +9,7 @@ import android.app.DialogFragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,11 +27,14 @@ public class NewDialog extends DialogFragment {
     NoticeDialogListener listener;
     int currentIndex;
 
+
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         listener = (NoticeDialogListener) context;
     }
+
+
     public interface NoticeDialogListener {
         public void onDialogPositiveClick(DialogFragment fragment, Jemuran jemur);
     }

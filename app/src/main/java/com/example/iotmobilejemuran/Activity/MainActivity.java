@@ -1,5 +1,6 @@
 package com.example.iotmobilejemuran.Activity;
 
+import android.app.DialogFragment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,9 +10,11 @@ import com.example.iotmobilejemuran.Model.Jemuran;
 import com.example.iotmobilejemuran.NewDialog;
 import com.example.iotmobilejemuran.R;
 
-public class MainActivity extends AppCompatActivity {
+
+
+public class MainActivity extends AppCompatActivity implements NewDialog.NoticeDialogListener {
     FloatingActionButton fab;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +24,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 NewDialog dialog = new NewDialog();
-                dialog.show(getSupportFragmentManager(), "Hello");
+                dialog.show(getFragmentManager(),"Hello");
             }
         });
+    }
+
+    @Override
+    public void onDialogPositiveClick(DialogFragment fragment, Jemuran jemur) {
+
     }
 }
