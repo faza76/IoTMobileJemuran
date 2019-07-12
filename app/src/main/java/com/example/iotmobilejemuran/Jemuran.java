@@ -8,7 +8,17 @@ public class Jemuran {
     private Location lokasi;
     private Weather weather;
 
-    public Jemuran(String name, String name) {
+    public Jemuran(int id, String name) {
+        this.id = id;
+        this.name = name;
+        this.status = status;
+        this.userId = userId;
+        this.lokasi = lokasi;
+        this.weather = weather;
+    }
+
+    public Jemuran(int id, String name, boolean status, String userId, Location lokasi, Weather weather)
+    {
         this.id = id;
         this.name = name;
         this.status = status;
