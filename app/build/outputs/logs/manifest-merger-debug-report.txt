@@ -75,10 +75,10 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faza/.gradle/
 		ADDED from /home/faza/StudioProjects/IoTMobileJemuran/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /home/faza/StudioProjects/IoTMobileJemuran/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.example.iotmobilejemuran.MainActivity
+activity#com.example.iotmobilejemuran.Activity.MainActivity
 ADDED from /home/faza/StudioProjects/IoTMobileJemuran/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /home/faza/StudioProjects/IoTMobileJemuran/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /home/faza/StudioProjects/IoTMobileJemuran/app/src/main/AndroidManifest.xml:12:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/faza/StudioProjects/IoTMobileJemuran/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN

@@ -1,7 +1,10 @@
-package com.example.iotmobilejemuran;
+package com.example.iotmobilejemuran.Repository;
 
 
+import com.example.iotmobilejemuran.Base.BaseRemote;
+import com.example.iotmobilejemuran.Base.JemuranServices;
 import com.example.iotmobilejemuran.Model.Jemuran;
+import com.example.iotmobilejemuran.Base.RemoteConfiguration;
 
 import java.util.List;
 

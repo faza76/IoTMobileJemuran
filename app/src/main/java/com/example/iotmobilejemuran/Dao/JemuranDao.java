@@ -1,4 +1,4 @@
-package com.example.iotmobilejemuran;
+package com.example.iotmobilejemuran.Dao;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Insert;

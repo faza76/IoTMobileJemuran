@@ -1,4 +1,4 @@
-package com.example.iotmobilejemuran;
+package com.example.iotmobilejemuran.Repository;
 
 import com.example.iotmobilejemuran.Model.Jemuran;
 

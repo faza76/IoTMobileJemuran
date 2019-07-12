@@ -1,4 +1,4 @@
-package com.example.iotmobilejemuran;
+package com.example.iotmobilejemuran.Base;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

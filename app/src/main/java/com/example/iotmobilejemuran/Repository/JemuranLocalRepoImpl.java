@@ -1,8 +1,8 @@
-package com.example.iotmobilejemuran;
+package com.example.iotmobilejemuran.Repository;
 
 
+import com.example.iotmobilejemuran.Dao.JemuranDao;
 import com.example.iotmobilejemuran.Model.Jemuran;
-import com.example.iotmobilejemuran.Model.User;
 
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -10,7 +10,7 @@ import java.util.concurrent.Callable;
 import io.reactivex.Observable;
 
 public class JemuranLocalRepoImpl implements JemuranLocalRepo{
-    private JemuranDao JemuranDao;
+    private com.example.iotmobilejemuran.Dao.JemuranDao JemuranDao;
 
 
     public JemuranLocalRepoImpl(JemuranDao JemuranDao) {
