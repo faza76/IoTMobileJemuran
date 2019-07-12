@@ -11,7 +11,6 @@ import com.example.iotmobilejemuran.NewDialog;
 import com.example.iotmobilejemuran.R;
 
 
-
 public class MainActivity extends AppCompatActivity implements NewDialog.NoticeDialogListener {
     FloatingActionButton fab;
 

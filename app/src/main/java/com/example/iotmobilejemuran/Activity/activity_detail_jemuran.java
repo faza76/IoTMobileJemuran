@@ -1,9 +1,11 @@
-package com.example.iotmobilejemuran;
+package com.example.iotmobilejemuran.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
+import com.example.iotmobilejemuran.R;
 
 import java.util.Timer;
 
