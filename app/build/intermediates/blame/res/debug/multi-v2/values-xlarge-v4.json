@@ -4,7 +4,7 @@
             "outputFile": "/home/faza/StudioProjects/IoTMobileJemuran/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/home/faza/.gradle/caches/transforms-2/files-2.1/70c2af05771a46cc476008254bf84bfc/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "/home/faza/.gradle/caches/transforms-2/files-2.1/f30dffea90c464baeb9585da4365b76b/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

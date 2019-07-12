@@ -26,6 +26,11 @@ public class Adapter extends  RecyclerView.Adapter<ViewHolder> {
     String name;
     ArrayList<Jemuran> listjemur;
 
+    public Adapter(Context context, ArrayList<Jemuran> listjemur) {
+        this.context = context;
+        this.listjemur = listjemur;
+    }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
@@ -37,7 +42,7 @@ public class Adapter extends  RecyclerView.Adapter<ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder,final int i) {
-        ((Items)viewHolder).mid.setText(listjemur.get(i).getId());
+        ((Items)viewHolder).mid.setText(listjemur.get(i).getUserId());
         ((Items) viewHolder).mname.setText(listjemur.get(i).getName());
 
 
