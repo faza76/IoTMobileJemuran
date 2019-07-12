@@ -1,5 +1,8 @@
 package com.example.iotmobilejemuran;
 
+
+
+
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -21,6 +24,7 @@ public class NewDialog extends DialogFragment {
     EditText namaInput;
     EditText idInput;
     NoticeDialogListener listener;
+    int currentIndex;
 
     @Override
     public void onAttach(Context context) {
@@ -33,7 +37,6 @@ public class NewDialog extends DialogFragment {
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
-        return super.onCreateDialog(savedInstanceState);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         LayoutInflater inflater = getActivity().getLayoutInflater();
