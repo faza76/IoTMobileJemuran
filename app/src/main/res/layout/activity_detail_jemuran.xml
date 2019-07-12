@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.activity_detail_jemuran">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/judulDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail"/>
+        <TextView
+            android:id="@+id/idLabelDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Id: "/>
+
+        <TextView
+            android:id="@+id/idDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="number" />
+        <TextView
+            android:id="@+id/namaLabelDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama: "/>
+        <TextView
+            android:id="@+id/namaDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/statusLabelDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: " />
+
+        <TextView
+            android:id="@+id/statusDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:inputType="number" />
+        <TextView
+            android:id="@+id/lokasiLabelDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lokasi: "/>
+        <TextView
+            android:id="@+id/lokasiDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/weatherLabelDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weather: " />
+        <TextView
+            android:id="@+id/weatherDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/durasiLabelDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menjemur sampai jam: "
+            android:gravity="center" />
+        <TimePicker
+            android:id="@+id/durasi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        </TimePicker>
+        <TextView
+            android:id="@+id/saveJemuran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tombol untuk mengamankan jemuran "
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amankan"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
