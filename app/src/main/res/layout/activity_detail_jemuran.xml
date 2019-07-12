@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_detail_jemuran">
+
+    <TextView
+        android:id="@+id/judulDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/idDetail"/>
+
+
+    <TextView
+        android:id="@+id/idLabelDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/idDetail"
+        app:layout_constraintEnd_toStartOf="@+id/idDetail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/judulDetail"
+        app:layout_constraintBottom_toTopOf="@+id/namaLabelDetail"/>
+
+    <TextView
+        android:id="@+id/idDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idLabelDetail"
+        app:layout_constraintBottom_toTopOf="@+id/namaDetail"
+        tools:layout_editor_absoluteY="48dp" />
+    <TextView
+        android:id="@+id/namaLabelDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/namaDetail"
+        app:layout_constraintEnd_toStartOf="@+id/namaDetail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idLabelDetail"
+        app:layout_constraintBottom_toTopOf="@id/statusLabelDetail"/>
+
+
+    <TextView
+        android:id="@+id/namaDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/idDetail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/namaLabelDetail"
+        app:layout_constraintBaseline_toBaselineOf="@+id/namaLabelDetail"
+        app:layout_constraintBottom_toTopOf="@id/statusDetail"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/statusLabelDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        app:layout_constraintTop_toBottomOf="@+id/namaLabelDetail"
+        app:layout_constraintBaseline_toBaselineOf="@+id/statusDetail"
+        app:layout_constraintEnd_toStartOf="@+id/statusDetail"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/statusDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/statusLabelDetail"
+        app:layout_constraintBottom_toTopOf="@+id/lokasiDetail"
+        app:layout_constraintTop_toBottomOf="@+id/namaDetail"
+        tools:layout_editor_absoluteY="48dp" />
+    <TextView
+        android:id="@+id/lokasiLabelDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/lokasiDetail"
+        app:layout_constraintEnd_toStartOf="@+id/lokasiDetail"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/lokasiDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toBottomOf="@+id/statusDetail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/lokasiLabelDetail"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/weatherLabelDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather: "
+        app:layout_constraintEnd_toStartOf="@+id/weatherDetail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lokasiLabelDetail" />
+
+
+    <TextView
+        android:id="@+id/weatherDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/weatherLabelDetail"
+        app:layout_constraintTop_toBottomOf="@+id/lokasiDetail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/weatherLabelDetail"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/durasiLabelDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menjemur sampai jam: "
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weatherDetail" />
+    <TimePicker
+        android:id="@+id/durasi"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/durasiLabelDetail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/saveJemuran"
+        >
+    </TimePicker>
+    <TextView
+        android:id="@+id/saveJemuran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol untuk mengamankan jemuran "
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/durasi"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amankan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/saveJemuran"
+        app:layout_constraintTop_toBottomOf="@+id/durasi"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+</android.support.constraint.ConstraintLayout>
