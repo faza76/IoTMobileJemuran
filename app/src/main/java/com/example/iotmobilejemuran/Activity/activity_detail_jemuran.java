@@ -24,5 +24,14 @@ public class activity_detail_jemuran extends AppCompatActivity {
         setContentView(R.layout.activity_detail_jemuran);
         Intent intent = getIntent();
 
+        int Id = intent.getIntExtra("id",0);
+        String Name = intent.getStringExtra("name");
+
+        id = (TextView) findViewById(R.id.idDetail);
+        nama = (TextView) findViewById(R.id.namaDetail);
+
+        id.setText(String.valueOf(Id));
+        id.setText(Name);
+
     }
 }

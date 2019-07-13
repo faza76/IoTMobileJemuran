@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/faza/StudioProjects/IoTMobileJemuran/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
+            "outputFile": "D:\\Kuliah\\SEMESTER 4\\Mobile\\17 MEI 2019\\LocationAware-3\\IoTMobileJemuran1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
             "map": [
                 {
-                    "source": "/home/faza/.gradle/caches/transforms-2/files-2.1/70c2af05771a46cc476008254bf84bfc/res/values-gl/values-gl.xml",
+                    "source": "C:\\Users\\Irsa\\.gradle\\caches\\transforms-2\\files-2.1\\1694668b5b7f7f38408ddaccb7ecd8d2\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/faza/.gradle/caches/transforms-2/files-2.1/d6d202380ec8b6b1b68210a98c1bd994/res/values-gl/values-gl.xml",
+                    "source": "C:\\Users\\Irsa\\.gradle\\caches\\transforms-2\\files-2.1\\91ab87bbe745108a2ee458ba2f375364\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

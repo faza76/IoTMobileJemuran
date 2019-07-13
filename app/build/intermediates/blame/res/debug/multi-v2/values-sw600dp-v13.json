@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/faza/StudioProjects/IoTMobileJemuran/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "D:\\Kuliah\\SEMESTER 4\\Mobile\\17 MEI 2019\\LocationAware-3\\IoTMobileJemuran1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/faza/.gradle/caches/transforms-2/files-2.1/70c2af05771a46cc476008254bf84bfc/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    }
-                },
-                {
-                    "source": "/home/faza/.gradle/caches/transforms-2/files-2.1/31435f1bc75cc258273c0d4251f9910b/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Irsa\\.gradle\\caches\\transforms-2\\files-2.1\\44a98dd092d6d288d02eaa0526f33585\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -30,6 +20,16 @@
                         "endLines": "10,11,12,13,14,15,17,18,19,23",
                         "endColumns": "59,69,70,71,57,57,10,63,62,10",
                         "endOffsets": "666,736,807,879,937,995,1104,1168,1231,1403"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Irsa\\.gradle\\caches\\transforms-2\\files-2.1\\1694668b5b7f7f38408ddaccb7ecd8d2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]
